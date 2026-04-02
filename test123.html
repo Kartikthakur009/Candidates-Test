@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Candidate Test - John Doe</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: rgba(255,255,255,0.1);
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    }
+    h2 {
+      text-align: center;
+      color: #ffdd57;
+      margin-bottom: 20px;
+    }
+    .question {
+      margin-bottom: 25px;
+      padding: 15px;
+      background: rgba(0,0,0,0.3);
+      border-radius: 8px;
+    }
+    .options label {
+      display: block;
+      margin: 8px 0;
+      padding: 8px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+    .options label:hover {
+      background: rgba(255,255,255,0.25);
+    }
+    input[type="radio"] {
+      margin-right: 10px;
+    }
+    button {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      background: #ffdd57;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      color: #1f1c2c;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background: #ffc107;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Role-Specific Test for John Doe</h2>
+
+    <div class="question">
+      <p>1. What is the purpose of the 'request' object in Flask?</p>
+      <div class="options">
+        <label><input type="radio" name="q1"> A) Handle HTTP requests</label>
+        <label><input type="radio" name="q1"> B) Handle database connections</label>
+        <label><input type="radio" name="q1"> C) Handle file uploads</label>
+        <label><input type="radio" name="q1"> D) Handle authentication</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>2. Which CSS property controls text size?</p>
+      <div class="options">
+        <label><input type="radio" name="q2"> A) font-size</label>
+        <label><input type="radio" name="q2"> B) text-style</label>
+        <label><input type="radio" name="q2"> C) size</label>
+        <label><input type="radio" name="q2"> D) text-size</label>
+      </div>
+    </div>
+
+    <button type="submit">Submit Test</button>
+  </div>
+</body>
+</html>
